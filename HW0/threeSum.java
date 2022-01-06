@@ -9,8 +9,8 @@ public class threeSum {
     }
     public static String threesum(int[] a) {
         for (int f = 0; f < a.length; f++) {
-            for (int g = f; g < a.length; g++) {
-                for (int h = g; h < a.length; h++) {
+            for (int g = 0; g < a.length; g++) {
+                for (int h = 0; h < a.length; h++) {
                     if (a[f] + a[g] +a[h] == 0) {
                         return "True";
                     }
